@@ -1,0 +1,147 @@
+/* Reset một số kiểu mặc định */
+.gif-image {
+    width: 2000px;  
+    height: auto;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: url('https://www.google.com/search?q=puma+url+&sca_esv=445ea37e19471e67&udm=2&biw=1920&bih=919&sxsrf=ADLYWIJeSqQulIEWeAopAqUXXLhwsYZI5Q%3A1736236292253&ei=BN18Z8OGD9CQnesP6Y2b8QI&ved=0ahUKEwjDmMibkOOKAxVQSGcHHenGJi4Q4dUDCBE&uact=5&oq=puma+url+&gs_lp=EgNpbWciCXB1bWEgdXJsIDIEEAAYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjgHlAAWKIdcAl4AJABAJgBaaAB8waqAQQxMC4xuAEDyAEA-AEBmAIRoALRBagCCsICBxAjGCcY6gLCAgQQIxgnwgIKEAAYgAQYQxiKBcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAhAQABiABBixAxhDGIMBGIoFwgINEAAYgAQYsQMYQxiKBcICBRAAGIAEwgIOEAAYgAQYsQMYgwEYigXCAgcQABiABBgTmAMFkgcCMTegB88v&sclient=img#vhid=t7VPZssYkr6gdM&vssid=mosaic') no-repeat center center/cover;
+    color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #e1a100;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.collection {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.collection h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 18px;
+    color: #e1a100;
+    margin-bottom: 20px;
+}
+
+.product-card button {
+    background-color: #e1a100;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #c88c00;
+}
+
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
